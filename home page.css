@@ -1,0 +1,201 @@
+body {
+	margin:0 auto;
+}
+
+#bl{
+	background-color:black;
+	color:white;
+	margin-bottom:40px; 
+}
+
+.clear {
+	clear:both;
+}
+
+img, ul{
+	margin:0;
+	padding:0:
+}	
+
+img {
+	width:225px;
+	height:64px;
+	padding:15px 25px;
+	float:left;	
+	color:green;
+}
+
+#black ul{
+	list-style:none;
+	height:64px;
+	padding:15px 25px;
+}
+
+#black ul li{
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#black ul li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+}
+
+#black ul li a:hover, #black ul li a.selected {
+	color:green;
+}	
+
+.right {
+	float:right;
+}
+
+#black form {
+	padding-top:20px;
+	padding-left:400px;
+	padding-bottom:60px;
+}
+
+#black form input{
+	width:400px;
+	height:40px;
+	background-color:black;
+	color:white;
+	border:1px solid green;
+	text-align:left;
+	font:3em;
+}
+
+#belowmenu ul {
+	list-style:none;
+	height:64px;
+	padding-left:150px;
+	padding-right:150px;
+	padding-bottom:100px;
+}
+#belowmenu ul li{
+	float:left;
+}
+#belowmenu ul li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+}
+#belowmenu #rank {
+	border:1px solid green;
+	padding:10px 50px;
+	margin:50px;
+}
+#belowmenu #talk {
+	border:1px solid green;
+	padding:10px 50px;
+	margin:50px;
+}
+#belowmenu #info {
+	border:1px solid green;
+	padding:10px 50px;
+	margin:50px;
+}
+#how {
+	color:green;
+	background:white;
+	text-align:center;
+	font-size:30px;
+}
+
+#student {
+	border:1px black solid;
+	float: left;
+	width: 400px;
+	height: 600px;
+	margin-top:60px;
+	margin-left:160px;
+}
+
+#mentor {
+	border:1px black solid;
+	float: right;
+	width: 400px;
+	height: 600px;
+	margin-top:60px;
+	margin-right:160px;
+}
+
+#student ,#student ul li,#mentor,#mentor ul li {
+	background:white;
+	color:green;
+	text-decoration:none;
+	list-style:none;
+	text-align: center;
+}
+
+#student ul , #mentor ul {
+	margin: 20px 10px;
+	text-align:center;
+	font-size:30px;
+}
+
+#student ul li , #mentor ul li {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size:20px;
+}
+
+#student ul li .grey , #mentor ul li .grey {
+	text-align:center;
+	color:grey;
+}
+
+#student form, #mentor form {
+	padding-top:25px;
+}
+
+#student form input, #mentor form input {
+	text-align:center;
+	color:white;
+	background-color:green;
+	width:200px;
+	height:60px;
+	text-decoration:none;
+	font-size:15px;
+}
+
+#text {
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:20px;
+}
+
+ul.img {
+	padding-left:100px;
+}
+
+ul.img li {
+	background-color:blue;
+	width:200px;
+	height:200px;
+	text-decoration:none;
+	float:left;
+	margin:10px;
+	list-style:none;
+}
+
+#news, #tips, #examupdates{
+	padding:40px 30px;
+	text-align:center;
+	float:left;
+	position:relative;
+	margin:30px;
+}
+
+#news ul li, #tips ul li, #examupdates ul li {
+	text-decoration:none;
+	list-style:none;
+	background-color:grey;
+	width:250px;
+	height:50px;
+	margin:8px;
+}
+
+
